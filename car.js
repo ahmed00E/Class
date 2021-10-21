@@ -1,5 +1,3 @@
-
-   
 class Car {
     constructor(brand, speed) {
         this.brand = brand
@@ -25,17 +23,17 @@ class Car {
 }
 
 let ford = new Car("ford", 0)
-ford.accelerate(30)
+ford.accelerate(22)
 ford.describe()
-ford.accelerate(30)
+ford.accelerate(22)
 ford.describe()
 
 
 let renaut = new Car("Renault", 0)
 renaut.accelerate(100)
-renaut.brake(37)
+renaut.brake(40)
 renaut.describe()
-
+// console.log(renaut)
 class tv {
     constructor(brand, channel, volume) {
         this.brand = brand
@@ -82,7 +80,7 @@ let sharab = new tv("sharab")
  
 sharab.volume(2400)
 sharab.changeChannel(4)
-sharab.describe("ssharab")
+sharab.describe("sharab")
 sharab.describe()
 
 
